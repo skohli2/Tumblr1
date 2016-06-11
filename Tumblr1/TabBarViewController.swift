@@ -80,14 +80,23 @@ class TabBarViewController: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func didPressTab(sender: UIButton) {
+        
+        let previousIndex = selectedIndex
+        selectedIndex = sender.tag
+        buttons[previousIndex].selected = false
+        let previousVC = viewControllers[previousIndex]
+        previousVC.willMoveToParentViewController(nil)
+        previousVC.view.removeFromSuperview()
+        previousVC.removeFromParentViewController()
+        sender.selected = true
+        let vc = viewControllers[selectedIndex]
+        addChildViewController(vc)
+        vc.view.frame = contentView.bounds
+        contentView.addSubview(vc.view)
+        vc.didMoveToParentViewController(self)
+        
     }
-    */
+    
 
 }
