@@ -16,6 +16,7 @@
 		4F44392E1D0AFBCA0040E35B /* Tumblr1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F44392D1D0AFBCA0040E35B /* Tumblr1UITests.swift */; };
 		4F44393C1D0B02340040E35B /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F44393B1D0B02340040E35B /* TabBarViewController.swift */; };
 		4F4439781D0B959E0040E35B /* TrendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4439771D0B959E0040E35B /* TrendingViewController.swift */; };
+		4F44397A1D0BA6930040E35B /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4439791D0BA6930040E35B /* ComposeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		4F44392F1D0AFBCA0040E35B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F44393B1D0B02340040E35B /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		4F4439771D0B959E0040E35B /* TrendingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendingViewController.swift; sourceTree = "<group>"; };
+		4F4439791D0BA6930040E35B /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				4F44390D1D0AFBCA0040E35B /* AppDelegate.swift */,
 				4F44390F1D0AFBCA0040E35B /* ViewController.swift */,
 				4F4439111D0AFBCA0040E35B /* Main.storyboard */,
+				4F4439791D0BA6930040E35B /* ComposeViewController.swift */,
 				4F4439771D0B959E0040E35B /* TrendingViewController.swift */,
 				4F44393B1D0B02340040E35B /* TabBarViewController.swift */,
 				4F4439141D0AFBCA0040E35B /* Assets.xcassets */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F44397A1D0BA6930040E35B /* ComposeViewController.swift in Sources */,
 				4F4439101D0AFBCA0040E35B /* ViewController.swift in Sources */,
 				4F4439781D0B959E0040E35B /* TrendingViewController.swift in Sources */,
 				4F44393C1D0B02340040E35B /* TabBarViewController.swift in Sources */,

@@ -28,6 +28,7 @@ class TabBarViewController: UIViewController {
     var selectedIndex: Int = 0
     
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -69,7 +70,8 @@ class TabBarViewController: UIViewController {
         
         viewControllers = [homeViewController, searchViewController, composeViewController, accountViewController, trendingViewController]
         
-        
+        buttons[selectedIndex].selected = true
+        didPressTab(buttons[selectedIndex])
         
         
     }
@@ -95,6 +97,7 @@ class TabBarViewController: UIViewController {
         vc.view.frame = contentView.bounds
         contentView.addSubview(vc.view)
         vc.didMoveToParentViewController(self)
+        
         
     }
     
