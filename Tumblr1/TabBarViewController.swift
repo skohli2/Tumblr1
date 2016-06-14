@@ -51,10 +51,10 @@ class TabBarViewController: UIViewController {
         searchViewController.didMoveToParentViewController(self)
         
         //Compose View Controller
-        composeViewController = storyboard.instantiateViewControllerWithIdentifier("ComposeViewController")
-        addChildViewController(composeViewController)
-        contentView.addSubview(composeViewController.view)
-        composeViewController.didMoveToParentViewController(self)
+//        composeViewController = storyboard.instantiateViewControllerWithIdentifier("ComposeViewController")
+//        addChildViewController(composeViewController)
+//        contentView.addSubview(composeViewController.view)
+//        composeViewController.didMoveToParentViewController(self)
         
         // Account View Controller
         accountViewController = storyboard.instantiateViewControllerWithIdentifier("AccountViewController")
@@ -69,12 +69,12 @@ class TabBarViewController: UIViewController {
         trendingViewController.didMoveToParentViewController(self)
         
         //Login View Controller
-        loginViewController = storyboard.instantiateViewControllerWithIdentifier("LoginViewController")
-        addChildViewController(loginViewController)
-        contentView.addSubview(loginViewController.view)
-        loginViewController.didMoveToParentViewController(self)
+//        loginViewController = storyboard.instantiateViewControllerWithIdentifier("LoginViewController")
+//        addChildViewController(loginViewController)
+//        contentView.addSubview(loginViewController.view)
+//        loginViewController.didMoveToParentViewController(self)
         
-        viewControllers = [homeViewController, searchViewController, composeViewController, accountViewController, trendingViewController, loginViewController]
+        viewControllers = [homeViewController, searchViewController, accountViewController, trendingViewController]
         
         buttons[selectedIndex].selected = true
         didPressTab(buttons[selectedIndex])

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F0AED561D1044B300E03CDE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0AED551D1044B300E03CDE /* LoginViewController.swift */; };
 		4F44390E1D0AFBCA0040E35B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F44390D1D0AFBCA0040E35B /* AppDelegate.swift */; };
 		4F4439101D0AFBCA0040E35B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F44390F1D0AFBCA0040E35B /* ViewController.swift */; };
 		4F4439131D0AFBCA0040E35B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F4439111D0AFBCA0040E35B /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F0AED551D1044B300E03CDE /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		4F44390A1D0AFBCA0040E35B /* Tumblr1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tumblr1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F44390D1D0AFBCA0040E35B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F44390F1D0AFBCA0040E35B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				4F44390D1D0AFBCA0040E35B /* AppDelegate.swift */,
 				4F44390F1D0AFBCA0040E35B /* ViewController.swift */,
 				4F4439111D0AFBCA0040E35B /* Main.storyboard */,
+				4F0AED551D1044B300E03CDE /* LoginViewController.swift */,
 				4F4439791D0BA6930040E35B /* ComposeViewController.swift */,
 				4F4439771D0B959E0040E35B /* TrendingViewController.swift */,
 				4F44393B1D0B02340040E35B /* TabBarViewController.swift */,
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F0AED561D1044B300E03CDE /* LoginViewController.swift in Sources */,
 				4F44397A1D0BA6930040E35B /* ComposeViewController.swift in Sources */,
 				4F4439101D0AFBCA0040E35B /* ViewController.swift in Sources */,
 				4F4439781D0B959E0040E35B /* TrendingViewController.swift in Sources */,
@@ -496,6 +500,7 @@
 				4F4439341D0AFBCA0040E35B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F4439351D0AFBCA0040E35B /* Build configuration list for PBXNativeTarget "Tumblr1Tests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +509,7 @@
 				4F4439371D0AFBCA0040E35B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F4439381D0AFBCA0040E35B /* Build configuration list for PBXNativeTarget "Tumblr1UITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +518,7 @@
 				4F44393A1D0AFBCA0040E35B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
