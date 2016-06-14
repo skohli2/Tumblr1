@@ -23,7 +23,7 @@ class TabBarViewController: UIViewController {
     var composeViewController: UIViewController!
     var accountViewController: UIViewController!
     var trendingViewController: UIViewController!
-    
+    var loginViewController: UIViewController!
     //Button Selected array index
     var selectedIndex: Int = 0
     
@@ -68,7 +68,13 @@ class TabBarViewController: UIViewController {
         contentView.addSubview(trendingViewController.view)
         trendingViewController.didMoveToParentViewController(self)
         
-        viewControllers = [homeViewController, searchViewController, composeViewController, accountViewController, trendingViewController]
+        //Login View Controller
+        loginViewController = storyboard.instantiateViewControllerWithIdentifier("LoginViewController")
+        addChildViewController(loginViewController)
+        contentView.addSubview(loginViewController.view)
+        loginViewController.didMoveToParentViewController(self)
+        
+        viewControllers = [homeViewController, searchViewController, composeViewController, accountViewController, trendingViewController, loginViewController]
         
         buttons[selectedIndex].selected = true
         didPressTab(buttons[selectedIndex])
